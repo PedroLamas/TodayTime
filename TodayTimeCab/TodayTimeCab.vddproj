@@ -1,0 +1,243 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:TodayTimeCab"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_5BCC179589414107A188B455B6E22BE9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\TodayTimeCab.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\TodayTimeCab.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+        }
+        "Folder"
+        {
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_1B6E47247C6543528B45B3934C73D66A"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                }
+            }
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_5BECEFEF355B4F7BA092D649886A5BFE"
+            {
+            "Name" = "8:#1911"
+            "Condition" = "8:"
+            "Property" = "8:%CE1%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:TodayTime"
+        "Manufacturer" = "8:Matepsoft"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:5.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_5BCC179589414107A188B455B6E22BE9"
+            {
+            "SourcePath" = "8:..\\TodayTime\\Windows Mobile 5.0 Pocket PC SDK (ARMV4I)\\Debug\\TodayTime.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1B6E47247C6543528B45B3934C73D66A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{1413013B-1399-4EC5-81F3-7A241FBA3A83}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_6FF0FFD627244162A5142C832928FD86"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_31458E94508940F0AF6865CA803AEF03"
+                            {
+                            "Name" = "8:Microsoft"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_B5B85772AB8A4345922D27668719C045"
+                                    {
+                                    "Name" = "8:Today"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_CD25C41E31A049EC8B40833B58FCD6B4"
+                                            {
+                                            "Name" = "8:Items"
+                                            "Condition" = "8:"
+                                                "Keys"
+                                                {
+                                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_97AFFCC9AA9A499D932A5D9995C1E9C5"
+                                                    {
+                                                    "Name" = "8:TodayTime"
+                                                    "Condition" = "8:"
+                                                        "Keys"
+                                                        {
+                                                        }
+                                                        "Values"
+                                                        {
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_11A137EB8A7B4415879BB91A005F9E7E"
+                                                            {
+                                                            "Name" = "8:Selectability"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:3"
+                                                            "Value" = "3:2"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_32AAD6E3AED54184ACC6E005FD34BDE6"
+                                                            {
+                                                            "Name" = "8:DLL"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:%InstallDir%\\TodayTime.dll"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_52BADCA058DC42048BFE630B1D70B1A5"
+                                                            {
+                                                            "Name" = "8:Options"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:3"
+                                                            "Value" = "3:1"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_BC191E87AE4D48F4AB9F1E2F2C272618"
+                                                            {
+                                                            "Name" = "8:Enabled"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:3"
+                                                            "Value" = "3:1"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_C6C65C9F72364AB2A8CCA2AF5BD13B43"
+                                                            {
+                                                            "Name" = "8:Type"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:3"
+                                                            "Value" = "3:4"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                "Values"
+                                                {
+                                                }
+                                            }
+                                        }
+                                        "Values"
+                                        {
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+        }
+    }
+}
