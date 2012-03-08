@@ -1,4 +1,4 @@
-﻿# TodayTime
+# TodayTime
 
 __Small configurable Today Plugin for date & time for Windows Mobile 5.0__
 
