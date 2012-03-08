@@ -1,4 +1,4 @@
-﻿## TodayTime
+﻿# TodayTime
 
 __Small configurable Today Plugin for date & time for Windows Mobile 5.0__
 
@@ -12,11 +12,13 @@ Here's the original text...
 
 ---
 
-# About
+## About
 
 For those unaware, on the latest ROM's, i-mate removed the clock from the Today Screen's title bar and put it together with the date plugin, doubling its size ... Now that's a real waste of space on the Today!
 
 So I decided to create a small plugin that shows the date, internet time (Swatch Internet Time) and the current time! Tapping the plugin panel shows the Date/Time, as it currently does in the native Date plugin.
+
+## Settings
 
 You can configure the plugin by going to _Start -> Settings -> Personal_ and then _Today -> Items_, pick TodayTime, tap the Options button e use the table below.
 
@@ -51,7 +53,7 @@ Use the following for the Time:
 
 You can also use the text you want, just delit it with the ' (quote). For example for a date like "Today: Sunday, March 5, 2006" you could use the format "'Today:' dddd, MMMM d, yyyy".
 
-# License
+## License
 
 See the [LICENSE.txt][2] file for details.
 
