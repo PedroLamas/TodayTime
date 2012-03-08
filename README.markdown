@@ -1,6 +1,6 @@
-﻿# TodayTime
+﻿## TodayTime
 
-## Small configurable Today Plugin for date & time for Windows Mobile 5.0
+__Small configurable Today Plugin for date & time for Windows Mobile 5.0__
 
 ![TodayTime][1]
 
